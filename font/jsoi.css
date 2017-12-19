@@ -1,0 +1,68 @@
+/*!
+Name: JSOI - Japanese Social Outline Icons
+URI: https://github.com/moroi/jsoi
+Version: 1.0
+Author: moro
+Author URI: https://twitter.com/moro_is
+License: MIT License
+License URI: https://github.com/moroi/jsoi/blob/master/LICENSE
+*/
+@font-face {
+  font-family: 'jsoi';
+  src:  url('jsoi.eot');
+  src:  url('jsoi.eot#iefix') format('embedded-opentype'),
+    url('jsoi.ttf') format('truetype'),
+    url('jsoi.woff') format('woff'),
+    url('jsoi.svg#jsoi') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'jsoi' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-twitter:before {
+  content: "\e900";
+}
+
+.icon-facebook:before {
+  content: "\e901";
+}
+
+.icon-instagram:before {
+  content: "\e902";
+}
+
+.icon-googlep:before {
+  content: "\e903";
+}
+
+.icon-line:before {
+  content: "\e904";
+}
+
+.icon-lines:before {
+  content: "\e905";
+}
+
+.icon-pocket:before {
+  content: "\e906";
+}
+
+.icon-hateb:before {
+  content: "\e907";
+}
+
+
+.icon-mixi:before {
+  content: "\e908";
+}
